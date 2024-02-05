@@ -1,0 +1,133 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background-color: #f7f7f7;
+}
+
+.titulo{
+  margin-top: 50px;
+  text-align: center;
+}
+
+#header{
+  font-size: 20px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+#header>span{
+  padding: 20px 40px;
+}
+
+.botao{
+  background-color: white;
+  border-radius: 5px;
+}
+
+.grid{
+  display: grid;
+  max-width: 1100px;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 100px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.grid > h2{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  text-align: end;
+  margin-top: 50px;
+  margin-right: 50px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.grid > p{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  text-align: right;
+  margin-right: 50px;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.grid > button{
+  grid-column-start: 1;
+  grid-column-end: 1;
+  width: 150px;
+  height: 50px;
+  justify-self: end;
+  margin-right: 50px;
+  background-color: red;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+}
+
+.grid > img{
+  max-width: 550px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.grid2{
+  display: grid;
+  max-width: 1100px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 500px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+
+.grid3{
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+}
+
+.grid3 > h2{
+  font-size: 64px;
+  text-align: right;
+  vertical-align: middle;
+  color: #b1b1b1;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.grid4{
+  grid-template-columns: 1fr;
+  margin:auto;
+}
+
+.grid4 > span{
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.item1{
+  flex-direction: column;
+}
+
+.linha1{
+  display: grid;
+  grid-template-columns: 30px 1fr;
+}
+
+.item1 > p{
+  padding-left: 30px;
+}
